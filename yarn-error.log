@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Programmes\nodejs\node.exe D:\Programmes\Yarn\bin\yarn.js add @animated-burgers/ -encodedCommand YgB1AHIAZwBlAHIALQBzAHQAeQBsAGUA classnames -inputFormat xml -outputFormat text
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;D:\wamp64\bin\php\php7.1.16;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\MiJe\AppData\Local\Microsoft\WindowsApps;C:\Users\MiJe\AppData\Roaming\Composer\vendor\bin;C:\adb;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.2.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Programmes\Yarn\bin\;D:\Programmes\nodejs\;D:\Programmes\ffmpeg-N-103323-g252128561e-win64-gpl\bin;D:\Programmes\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MiJe\AppData\Local\Microsoft\WindowsApps;C:\Users\MiJe\AppData\Roaming\Composer\vendor\bin;;C:\Users\MiJe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MiJe\AppData\Local\Yarn\bin;C:\Users\MiJe\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@animated-burgers%2f: Request "https://registry.yarnpkg.com/@animated-burgers%2f" returned a 405
+      at Request.params.callback [as _callback] (D:\Programmes\Yarn\lib\cli.js:66106:18)
+      at Request.self.callback (D:\Programmes\Yarn\lib\cli.js:140749:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (D:\Programmes\Yarn\lib\cli.js:141721:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (D:\Programmes\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1348:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
