@@ -1,0 +1,90 @@
+* { margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: 0;
+}
+
+body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section#sec-1 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fca469, #f58e19);
+}
+
+section#sec-1 .marbre {
+    height: 100%;
+    background-image: url(../img/fond-marbre.png);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#sec-1 .marbre .container {
+    text-align: center;
+    color: white;
+}
+
+section#sec-1 .marbre .container h1 {
+    font-size: 5em;
+}
+
+section#sec-1 .marbre .container p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+section#sec-1 .marbre .container a.title-btn {
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 50px;
+    color: #ff8e0d;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+section#sec-S {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fca469, #f58e19);
+}
+
+section#sec-S .marbre-S {
+    height: 100%;
+    background-image: url(../img/fond-marbre.png);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#sec-S .marbre-S .container-S {
+    text-align: center;
+    color: white;
+}
+
+section#sec-S .marbre-S .container-S h1 {
+    font-size: 5em;
+}
+
+section#sec-S .marbre-S .container-S p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+section#sec-S .marbre-S .container-S a.title-btn-S {
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 50px;
+    color: #ff8e0d;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
