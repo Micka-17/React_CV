@@ -17,9 +17,9 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="React_CV/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} /> 
-        <Route path="/about" element={<About />} />         
-        <Route path="/skills" element={<SkillsPage />} />         
+        <Route path="React_CV/contact" element={<Contact />} /> 
+        <Route path="React_CV/about" element={<About />} />         
+        <Route path="React_CV/skills" element={<SkillsPage />} />         
         <Route path="/*" element={<NotFound />} />  
       </Routes>       
     </Router>
