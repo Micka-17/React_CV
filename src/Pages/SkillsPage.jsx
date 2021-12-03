@@ -11,7 +11,7 @@ export default function SkillsPage() {
     return (
     <div className="body">
         <Top2 />
-        <Skills />
+        <Skills page = "Skills"/>
         <Download />
         <Nav />
         <Footer />

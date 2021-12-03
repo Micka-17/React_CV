@@ -10,29 +10,6 @@ import { SkillsPage } from '../Pages/SkillsPage';
 
 export default function Nav() {
 
-    const params = useLocation();
-
-    let add = () => {
-        console.log("work2");
-        let classSelected = document.querySelector(".ShowMySkill");
-        console.log('test');
-        classSelected.classList.remove("d-none");
-    } 
-
-    let target = () => {
-        console.log('try it');
-        
-
-        if (params.pathname == "/skills" || params.pathname == "/skills") {
-            console.log("work");
-            add();
-        } else {
-            console.log("not yet");
-        }
-    }
-
-    console.log(params.pathname);
-    
     return (
             <section className="sec-4">
                 <div className="menu">
@@ -40,16 +17,16 @@ export default function Nav() {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/" onClick={target}> Home </Link>
+                                    <Link to="/"> Home </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact" onClick={target}> Contact </Link>
+                                    <Link to="/contact"> Contact </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" onClick={target}> About </Link>
+                                    <Link to="/about"> About </Link>
                                 </li>
                                 <li>
-                                    <Link to="/skills" onClick={target}> Skills </Link>
+                                    <Link to="/skills"> Skills </Link>
                                 </li>
                             </ul>
                         </nav>
