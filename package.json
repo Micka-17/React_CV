@@ -2,7 +2,7 @@
   "name": "react-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://micka-17.github.io/CV_React/",
+  "homepage": "https://micka-17.github.io/React_CV/",
   "dependencies": {
     "@chakra-ui/react": "^1.6.12",
     "@emotion/react": "11",
