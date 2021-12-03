@@ -16,11 +16,11 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} /> 
-        <Route path="/about" element={<About />} />         
-        <Route path="/skills" element={<SkillsPage />} />         
-        <Route path="/*" element={<NotFound />} />  
+        <Route path="React_CV/" element={<Home />} />
+        <Route path="React_CV/contact" element={<Contact />} /> 
+        <Route path="React_CV/about" element={<About />} />         
+        <Route path="React_CV/skills" element={<SkillsPage />} />         
+        <Route path="React_CV/*" element={<NotFound />} />  
       </Routes>       
     </Router>
   );
