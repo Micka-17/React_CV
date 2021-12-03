@@ -17,16 +17,16 @@ export default function Nav() {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="React_CV/"> Home </Link>
+                                    <Link to="/"> Home </Link>
                                 </li>
                                 <li>
-                                    <Link to="React_CV/contact"> Contact </Link>
+                                    <Link to="/contact"> Contact </Link>
                                 </li>
                                 <li>
-                                    <Link to="React_CV/about"> About </Link>
+                                    <Link to="/about"> About </Link>
                                 </li>
                                 <li>
-                                    <Link to="React_CV/skills"> Skills </Link>
+                                    <Link to="/skills"> Skills </Link>
                                 </li>
                             </ul>
                         </nav>
