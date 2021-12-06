@@ -16,7 +16,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="React_CV/" element={<Home />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/about" element={<About />} />         
         <Route path="/skills" element={<SkillsPage />} />         
