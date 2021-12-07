@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/React_CV/static/css/main.bb976c79.chunk.css",
-    "main.js": "/React_CV/static/js/main.44b3ae84.chunk.js",
-    "main.js.map": "/React_CV/static/js/main.44b3ae84.chunk.js.map",
+    "main.js": "/React_CV/static/js/main.bea5372a.chunk.js",
+    "main.js.map": "/React_CV/static/js/main.bea5372a.chunk.js.map",
     "runtime-main.js": "/React_CV/static/js/runtime-main.8aa86699.js",
     "runtime-main.js.map": "/React_CV/static/js/runtime-main.8aa86699.js.map",
     "static/css/2.231978b2.chunk.css": "/React_CV/static/css/2.231978b2.chunk.css",
-    "static/js/2.adca2f89.chunk.js": "/React_CV/static/js/2.adca2f89.chunk.js",
-    "static/js/2.adca2f89.chunk.js.map": "/React_CV/static/js/2.adca2f89.chunk.js.map",
+    "static/js/2.8a0353c9.chunk.js": "/React_CV/static/js/2.8a0353c9.chunk.js",
+    "static/js/2.8a0353c9.chunk.js.map": "/React_CV/static/js/2.8a0353c9.chunk.js.map",
     "static/js/3.9f23da22.chunk.js": "/React_CV/static/js/3.9f23da22.chunk.js",
     "static/js/3.9f23da22.chunk.js.map": "/React_CV/static/js/3.9f23da22.chunk.js.map",
     "index.html": "/React_CV/index.html",
     "static/css/2.231978b2.chunk.css.map": "/React_CV/static/css/2.231978b2.chunk.css.map",
     "static/css/main.bb976c79.chunk.css.map": "/React_CV/static/css/main.bb976c79.chunk.css.map",
-    "static/js/2.adca2f89.chunk.js.LICENSE.txt": "/React_CV/static/js/2.adca2f89.chunk.js.LICENSE.txt",
+    "static/js/2.8a0353c9.chunk.js.LICENSE.txt": "/React_CV/static/js/2.8a0353c9.chunk.js.LICENSE.txt",
     "static/media/style.css": "/React_CV/static/media/fond-marbre.b968f94a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8aa86699.js",
     "static/css/2.231978b2.chunk.css",
-    "static/js/2.adca2f89.chunk.js",
+    "static/js/2.8a0353c9.chunk.js",
     "static/css/main.bb976c79.chunk.css",
-    "static/js/main.44b3ae84.chunk.js"
+    "static/js/main.bea5372a.chunk.js"
   ]
 }
