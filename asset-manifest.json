@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React_CV/static/css/main.bb976c79.chunk.css",
-    "main.js": "/React_CV/static/js/main.bea5372a.chunk.js",
-    "main.js.map": "/React_CV/static/js/main.bea5372a.chunk.js.map",
+    "main.css": "/React_CV/static/css/main.d2fece2b.chunk.css",
+    "main.js": "/React_CV/static/js/main.de8bf5fe.chunk.js",
+    "main.js.map": "/React_CV/static/js/main.de8bf5fe.chunk.js.map",
     "runtime-main.js": "/React_CV/static/js/runtime-main.8aa86699.js",
     "runtime-main.js.map": "/React_CV/static/js/runtime-main.8aa86699.js.map",
     "static/css/2.231978b2.chunk.css": "/React_CV/static/css/2.231978b2.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.9f23da22.chunk.js.map": "/React_CV/static/js/3.9f23da22.chunk.js.map",
     "index.html": "/React_CV/index.html",
     "static/css/2.231978b2.chunk.css.map": "/React_CV/static/css/2.231978b2.chunk.css.map",
-    "static/css/main.bb976c79.chunk.css.map": "/React_CV/static/css/main.bb976c79.chunk.css.map",
+    "static/css/main.d2fece2b.chunk.css.map": "/React_CV/static/css/main.d2fece2b.chunk.css.map",
     "static/js/2.8a0353c9.chunk.js.LICENSE.txt": "/React_CV/static/js/2.8a0353c9.chunk.js.LICENSE.txt",
     "static/media/style.css": "/React_CV/static/media/fond-marbre.b968f94a.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.8aa86699.js",
     "static/css/2.231978b2.chunk.css",
     "static/js/2.8a0353c9.chunk.js",
-    "static/css/main.bb976c79.chunk.css",
-    "static/js/main.bea5372a.chunk.js"
+    "static/css/main.d2fece2b.chunk.css",
+    "static/js/main.de8bf5fe.chunk.js"
   ]
 }
