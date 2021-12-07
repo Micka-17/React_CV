@@ -103,6 +103,24 @@ section#sec-S .marbre .container a.title-btn {
     }
 }
 
+@media screen and (max-width: 350px) {
+    section#sec-S .marbre .container .h1 {
+        font-size: 2.5em;
+    }
+    section#sec-S .marbre .container .p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section#sec-S .marbre .container h1 {
+        font-size: 2.5em;
+    }
+    section#sec-S .marbre .container p {
+        font-size: 1em;
+    }
+}
+
 section#sec-2 > h1 {
     text-align: center;
     color: #181b3a;
@@ -153,9 +171,9 @@ section#sec-2 .container .competences p {
     section#sec-2 > h2 {
         font-size: 2em;
     }
-    section#sec-2 .container {
+    /* section#sec-2 .container {
         flex-direction: column;
-    }
+    } */
 section#sec-2 .container .competences p {
     max-width: 95%;
     }
@@ -211,7 +229,6 @@ section#sec-3 .container .right a.dl-btn {
     border-radius: 50px;
     color: #ff8e0d;
     font-weight: 500;
-    text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {

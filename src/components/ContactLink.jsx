@@ -2,9 +2,14 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import { send } from 'emailjs-com';
 
 export default function ContactLink() {
+
+    const notify = () => toast("Envoyé !");
 
     const [toSend, setToSend] = useState({ from_name: "", reply_to: "", number: "", message: '' })
 
@@ -15,23 +20,24 @@ export default function ContactLink() {
             'template_yn5ys1h',
             toSend,
             'user_q0Bg96ET7E9ESkMNXtIz7'
-          )
+        )
             .then((response) => {
-              console.log('SUCCESS!', response.status, response.text);
+                console.log('SUCCESS!', response.status, response.text);
             })
             .catch((err) => {
-              console.log('FAILED...', err);
+                console.log('FAILED...', err);
             });
-      };
-    
-      const handleChange = (e) => {
+    };
+
+    const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
-      };
+    };
 
     return (
         <section id="sec-2">
+            <ToastContainer />
             <h1>Formulaire de contact</h1>
-            <p>Merci de rentrer des coordonnées exact. <br/> Je vous reconcaterai au plus vite.</p>
+            <p>Merci de rentrer des coordonnées exact. <br /> Je vous reconcaterai au plus vite.</p>
             <div className="conatactephp">
                 <div className="start-template">
                     <form onSubmit={onSubmit}>
@@ -60,7 +66,7 @@ export default function ContactLink() {
                                     <textarea name="message" id="message" className="form-control message" value={toSend.message} onChange={handleChange} ></textarea>
                                 </div>
                                 <br />
-                                <button className="btn btn-primary" type="submit">Envoyer</button>
+                                <button className="btn btn-primary" onClick={notify} type="submit">Envoyer</button>
                             </div>
                         </div>
                     </form>
