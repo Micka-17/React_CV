@@ -1,6 +1,6 @@
 * { margin: 0;
     padding: 0;
-    list-style: 0;
+    list-style: none;
     text-decoration: 0;
 }
  ul {
@@ -9,10 +9,16 @@
 body { 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 .btnBurger {
     position: absolute;
     top: 0;
     left: 0px;
+}
+.MenuBurger{
+    width: 200px;
+    height: 200px;
 }
 section#sec-1 {
     width: 100%;

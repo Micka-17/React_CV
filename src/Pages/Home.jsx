@@ -3,7 +3,6 @@ import Skills from '../components/Skills';
 
 import React from 'react'
 import Footer from '../components/Footer';
-import Nav from '../components/Nav';
 import Download from '../components/Download';
 
 
@@ -14,7 +13,6 @@ export default function Home() {
         <Top />
         <Skills page = "home"/>
         <Download />
-        <Nav />
         <Footer />
     </div>
     )
