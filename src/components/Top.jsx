@@ -1,11 +1,8 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
+import { Link, useLocation } from "react-router-dom"
 
 export default function Top() {
-
-    let showSettings = (e) => {
-        e.preventDefault();
-    }
 
     var styles = {
         bmBurgerButton: {
@@ -56,10 +53,10 @@ export default function Top() {
         <section id="sec-1">
             <div className="">
                 <Menu styles={ styles }>
-                    <a id="home" className="menu-item" href="/React_CV">Home</a>
-                    <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/contact">Contact</a>
-                    <a onClick={showSettings} className="menu-item--small" href="">Settings</a>
+                    <Link id="home" className="menu-item" to="/React_CV">Home</Link>
+                    <Link id="contact" className="menu-item" to="/contact">About</Link>
+                    <Link id="skills" className="menu-item" to="/skills">Contact</Link>
+                    <Link id="about" className="menu-item" to="/about">Settings</Link>
                 </Menu>
             </div>
             <div className="marbre">

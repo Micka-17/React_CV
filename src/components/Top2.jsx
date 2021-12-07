@@ -1,5 +1,6 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
+import { Link, useLocation } from "react-router-dom"
 
 export default function Top2() {
 
@@ -9,57 +10,57 @@ export default function Top2() {
 
     var styles = {
         bmBurgerButton: {
-          position: 'fixed',
-          width: '36px',
-          height: '30px',
-          left: '36px',
-          top: '36px'
+            position: 'fixed',
+            width: '36px',
+            height: '30px',
+            left: '36px',
+            top: '36px'
         },
         bmBurgerBars: {
-          background: '#373a47'
+            background: '#373a47'
         },
         bmBurgerBarsHover: {
-          background: '#a90000'
+            background: '#a90000'
         },
         bmCrossButton: {
-          height: '24px',
-          width: '24px'
+            height: '24px',
+            width: '24px'
         },
         bmCross: {
-          background: '#bdc3c7'
+            background: '#bdc3c7'
         },
         bmMenuWrap: {
-          position: 'fixed',
-          height: '100%'
+            position: 'fixed',
+            height: '100%'
         },
         bmMenu: {
-          background: '#373a47',
-          padding: '2.5em 1.5em 0',
-          fontSize: '1.15em'
+            background: '#373a47',
+            padding: '2.5em 1.5em 0',
+            fontSize: '1.15em'
         },
         bmMorphShape: {
-          fill: '#373a47'
+            fill: '#373a47'
         },
         bmItemList: {
-          color: '#b8b7ad',
-          padding: '0.8em'
+            color: '#b8b7ad',
+            padding: '0.8em'
         },
         bmItem: {
-          display: 'inline-block'
+            display: 'inline-block'
         },
         bmOverlay: {
-          background: 'rgba(0, 0, 0, 0.3)'
+            background: 'rgba(0, 0, 0, 0.3)'
         }
-      }
+    }
 
     return (
         <section id="sec-S">
             <div className="">
-                <Menu styles={ styles }>
-                    <a id="home" className="menu-item" href="/React_CV">Home</a>
-                    <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/contact">Contact</a>
-                    <a onClick={showSettings} className="menu-item--small" href="">Settings</a>
+                <Menu styles={styles}>
+                    <Link id="home" className="menu-item" to="/React_CV">Home</Link>
+                    <Link id="contact" className="menu-item" to="/contact">About</Link>
+                    <Link id="skills" className="menu-item" to="/skills">Contact</Link>
+                    <Link id="about" className="menu-item" to="/about">Settings</Link>
                 </Menu>
             </div>
             <div className="marbre">
