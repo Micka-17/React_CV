@@ -14,7 +14,7 @@ export default function Top2() {
             width: '36px',
             height: '30px',
             left: '36px',
-            top: '36px'
+            top: '36px',
         },
         bmBurgerBars: {
             background: '#373a47'
@@ -43,10 +43,13 @@ export default function Top2() {
         },
         bmItemList: {
             color: '#b8b7ad',
-            padding: '0.8em'
+            padding: '0.8em',
+            display: 'flex',
+            flexDirection: 'column'
         },
         bmItem: {
-            display: 'inline-block'
+            display: 'inline-block',
+            margin: '10px'
         },
         bmOverlay: {
             background: 'rgba(0, 0, 0, 0.3)'
@@ -55,12 +58,12 @@ export default function Top2() {
 
     return (
         <section id="sec-S">
-            <div className="">
+            <div className="liste_burger">
                 <Menu styles={styles}>
                     <Link id="home" className="menu-item" to="/React_CV">Home</Link>
-                    <Link id="contact" className="menu-item" to="/contact">About</Link>
-                    <Link id="skills" className="menu-item" to="/skills">Contact</Link>
-                    <Link id="about" className="menu-item" to="/about">Settings</Link>
+                    <Link id="contact" className="menu-item" to="/contact">Contact</Link>
+                    <Link id="skills" className="menu-item" to="/skills">Skills</Link>
+                    <Link id="about" className="menu-item" to="/about">About</Link>
                 </Menu>
             </div>
             <div className="marbre">

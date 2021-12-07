@@ -51,12 +51,12 @@ export default function Top() {
 
     return (
         <section id="sec-1">
-            <div className="">
+            <div className="liste_burger">
                 <Menu styles={ styles }>
                     <Link id="home" className="menu-item" to="/React_CV">Home</Link>
-                    <Link id="contact" className="menu-item" to="/contact">About</Link>
-                    <Link id="skills" className="menu-item" to="/skills">Contact</Link>
-                    <Link id="about" className="menu-item" to="/about">Settings</Link>
+                    <Link id="contact" className="menu-item" to="/contact">Contact</Link>
+                    <Link id="skills" className="menu-item" to="/skills">Skills</Link>
+                    <Link id="about" className="menu-item" to="/about">About</Link>
                 </Menu>
             </div>
             <div className="marbre">
