@@ -10,6 +10,7 @@ export default function Skills({page}) {
     console.log(page, comp);
 
     let array = comp;
+    
     if(page === "home") {
         array= [
             array[0],array[1],array[2]
