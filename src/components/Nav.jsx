@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom"
 
 import { Contact } from '../Pages/Contact';
 import { Home } from '../Pages/Home';
-import { About } from '../Pages/About';
 import { SkillsPage } from '../Pages/SkillsPage';
 
 
@@ -21,9 +20,6 @@ export default function Nav() {
                                 </li>
                                 <li>
                                     <Link to="/contact"> Contact </Link>
-                                </li>
-                                <li>
-                                    <Link to="/about"> About </Link>
                                 </li>
                                 <li>
                                     <Link to="/skills"> Skills </Link>

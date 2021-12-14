@@ -81,6 +81,7 @@ section#sec-S .marbre {
 section#sec-S .marbre .container {
     text-align: center;
     color: white;
+    margin-top: 65px;
 }
 
 section#sec-S .marbre .container h1 {
@@ -232,7 +233,7 @@ section#sec-3 .container .right p:nth-of-type(2) {
 
 section#sec-3 .container .right a.dl-btn {
     background-color: white;
-    padding: 1em 2em;
+    padding: 1em 1em;
     border-radius: 50px;
     color: #ff8e0d;
     font-weight: 500;

@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
-import About from './Pages/About';
 import SkillsPage from './Pages/SkillsPage';
 import NotFound from './Pages/404';
 
@@ -17,8 +16,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="React_CV/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} /> 
-        <Route path="/about" element={<About />} />         
+        <Route path="/contact" element={<Contact />} />          
         <Route path="/skills" element={<SkillsPage />} />         
         <Route path="/*" element={<NotFound />} />  
       </Routes>       

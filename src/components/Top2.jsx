@@ -17,24 +17,24 @@ export default function Top2() {
             top: '36px',
         },
         bmBurgerBars: {
-            background: '#373a47'
+            background: '#206A93'
         },
         bmBurgerBarsHover: {
-            background: '#a90000'
+            background: '#008DD1'
         },
         bmCrossButton: {
             height: '24px',
             width: '24px'
         },
         bmCross: {
-            background: '#bdc3c7'
+            background: '#AE5317'
         },
         bmMenuWrap: {
             position: 'fixed',
             height: '100%'
         },
         bmMenu: {
-            background: '#373a47',
+            background: '#061940',
             padding: '2.5em 1.5em 0',
             fontSize: '1.15em'
         },
@@ -42,12 +42,13 @@ export default function Top2() {
             fill: '#373a47'
         },
         bmItemList: {
-            color: '#b8b7ad',
+            color: '#FFFFFF',
             padding: '0.8em',
             display: 'flex',
             flexDirection: 'column'
         },
         bmItem: {
+            color: '#FFFFFF',
             display: 'inline-block',
             margin: '10px'
         },
@@ -63,14 +64,12 @@ export default function Top2() {
                     <Link id="home" className="menu-item" to="/React_CV">Home</Link>
                     <Link id="contact" className="menu-item" to="/contact">Contact</Link>
                     <Link id="skills" className="menu-item" to="/skills">Skills</Link>
-                    <Link id="about" className="menu-item" to="/about">About</Link>
                 </Menu>
             </div>
             <div className="marbre">
                 <div className="container">
                     <h1>Mickaël Boï</h1>
                     <p>Dev Junior React.js / React Native</p>
-                    <a href="#sec-2" className="title-btn">En savoir plus</a>
                 </div>
             </div>
         </section >
