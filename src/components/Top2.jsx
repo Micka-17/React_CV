@@ -1,12 +1,8 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
-import { Link, useLocation } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export default function Top2() {
-
-    let showSettings = (e) => {
-        e.preventDefault();
-    }
 
     var styles = {
         bmBurgerButton: {

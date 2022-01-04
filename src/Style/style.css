@@ -10,12 +10,19 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.Social {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .btnBurger {
     position: absolute;
     top: 0;
     left: 0px;
 }
+
 .MenuBurger{
     width: 200px;
     height: 200px;

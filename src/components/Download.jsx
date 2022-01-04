@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import PDF from "../dl/mickael_boi_junior.pdf"
 
 export default function Download() {
 
@@ -10,16 +11,18 @@ export default function Download() {
             <div className="container">
                 <div className="left">
                     <FontAwesomeIcon icon={solid('code')} 
-                    spin
                     size='5x'
                     />
                 </div>
                 <div className="right">
                     <h2 className="title">Reconversion professionnel</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elitconsequatur, facere neque inventore saepe quidem id recusandae adipisci doloribus ipsum magni fugit dolorum quo!</p>
-                    <br />
-                    <p>Lorem ipsum dolor sit ameam in. Aliquid eos, exercitationem placeat dicta blanditiis magnam quia minima maiores aliquam? Fugiat beatae ratione ut!</p>
-                    <a href="./dl/mickael_boi.pdf" className="dl-btn" download>Download C.V</a>
+                    <p>Après avoir été l'assai de la vente j'ai enfin pris la décision partir dans un domaine pour moi, qu'y m'intéresse réellement.<br />
+                        L'informatique en général m'a toujours attiré, ainsi après avoir découvert le développement web je me suis lancé via OpenClassRooms pour obtenir en Bac +2 fin 2021.<br />
+                        Maintenant je suis en pleine lancer pour continuer à apprendre et progresser.<br />
+                        Mon nouvel objectif est de réaliser un bac +3 en alternance pour obtenir et améliorer mes compétences dans ce domaine.
+                        </p>
+                        <br />
+                    <a href={PDF} className="dl-btn" download="mickael_boi.pdf">Download C.V</a>
                 </div>
             </div>
         </section>

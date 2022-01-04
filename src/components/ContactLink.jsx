@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -44,7 +44,7 @@ export default function ContactLink() {
                         <div className="row">
                             <div className="col-xs-6">
                                 <div className="form-group">
-                                    <label htmlFor="from_name">Nom, Prenom</label>
+                                    <label htmlFor="from_name">Nom, Prenom ou raison social</label>
                                     <input type="text" name="from_name" className="form-control from_name" id="from_name" value={toSend.from_name} onChange={handleChange} />
                                 </div>
                             </div>

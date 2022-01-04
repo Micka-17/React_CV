@@ -1,8 +1,4 @@
-import { React, useEffect } from 'react'
-import { Link, useLocation } from "react-router-dom"
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { React } from 'react'
 
 import comp from '../components/CompetenceMap'
 
