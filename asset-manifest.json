@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/React_CV/static/css/main.3e22bf6d.chunk.css",
-    "main.js": "/React_CV/static/js/main.69484381.chunk.js",
-    "main.js.map": "/React_CV/static/js/main.69484381.chunk.js.map",
-    "runtime-main.js": "/React_CV/static/js/runtime-main.8aa86699.js",
-    "runtime-main.js.map": "/React_CV/static/js/runtime-main.8aa86699.js.map",
+    "main.css": "/React_CV/static/css/main.edd141f9.chunk.css",
+    "main.js": "/React_CV/static/js/main.79d357b0.chunk.js",
+    "main.js.map": "/React_CV/static/js/main.79d357b0.chunk.js.map",
+    "runtime-main.js": "/React_CV/static/js/runtime-main.05ba30b0.js",
+    "runtime-main.js.map": "/React_CV/static/js/runtime-main.05ba30b0.js.map",
     "static/css/2.231978b2.chunk.css": "/React_CV/static/css/2.231978b2.chunk.css",
-    "static/js/2.58fb7418.chunk.js": "/React_CV/static/js/2.58fb7418.chunk.js",
-    "static/js/2.58fb7418.chunk.js.map": "/React_CV/static/js/2.58fb7418.chunk.js.map",
-    "static/js/3.9f23da22.chunk.js": "/React_CV/static/js/3.9f23da22.chunk.js",
-    "static/js/3.9f23da22.chunk.js.map": "/React_CV/static/js/3.9f23da22.chunk.js.map",
+    "static/js/2.aaa7d5d3.chunk.js": "/React_CV/static/js/2.aaa7d5d3.chunk.js",
+    "static/js/2.aaa7d5d3.chunk.js.map": "/React_CV/static/js/2.aaa7d5d3.chunk.js.map",
+    "static/js/3.b44a1463.chunk.js": "/React_CV/static/js/3.b44a1463.chunk.js",
+    "static/js/3.b44a1463.chunk.js.map": "/React_CV/static/js/3.b44a1463.chunk.js.map",
     "index.html": "/React_CV/index.html",
     "static/css/2.231978b2.chunk.css.map": "/React_CV/static/css/2.231978b2.chunk.css.map",
-    "static/css/main.3e22bf6d.chunk.css.map": "/React_CV/static/css/main.3e22bf6d.chunk.css.map",
-    "static/js/2.58fb7418.chunk.js.LICENSE.txt": "/React_CV/static/js/2.58fb7418.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/React_CV/static/media/fond-marbre.b968f94a.png"
+    "static/css/main.edd141f9.chunk.css.map": "/React_CV/static/css/main.edd141f9.chunk.css.map",
+    "static/js/2.aaa7d5d3.chunk.js.LICENSE.txt": "/React_CV/static/js/2.aaa7d5d3.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/React_CV/static/media/fond-marbre.b968f94a.png",
+    "static/media/mickael_boi_junior.b90b3cbb.pdf": "/React_CV/static/media/mickael_boi_junior.b90b3cbb.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.8aa86699.js",
+    "static/js/runtime-main.05ba30b0.js",
     "static/css/2.231978b2.chunk.css",
-    "static/js/2.58fb7418.chunk.js",
-    "static/css/main.3e22bf6d.chunk.css",
-    "static/js/main.69484381.chunk.js"
+    "static/js/2.aaa7d5d3.chunk.js",
+    "static/css/main.edd141f9.chunk.css",
+    "static/js/main.79d357b0.chunk.js"
   ]
 }
