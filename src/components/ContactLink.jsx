@@ -37,7 +37,7 @@ export default function ContactLink() {
         <section id="sec-2">
             <ToastContainer />
             <h1>Formulaire de contact</h1>
-            <p>Merci de rentrer des coordonnées exact. <br /> Je vous reconcaterai au plus vite.</p>
+            <p>Merci de rentrer des coordonnées exactes. <br /> Je vous recontacterai au plus vite.</p>
             <div className="conatactephp">
                 <div className="start-template">
                     <form onSubmit={onSubmit}>
@@ -60,8 +60,8 @@ export default function ContactLink() {
                                     <input type="number" name="number" className="form-control number" id="number" value={toSend.number} onChange={handleChange} />
                                 </div>
                             </div>
-                            <div className="col-md-12">
-                                <div className="from-group">
+                            <div className="col-xs-6">
+                                <div className="form-group">
                                     <label htmlFor="message" className="message">Message</label>
                                     <textarea name="message" id="message" className="form-control message" value={toSend.message} onChange={handleChange} ></textarea>
                                 </div>

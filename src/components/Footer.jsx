@@ -9,7 +9,7 @@ export default function Footer() {
         <footer>
             <div className="container">
                 <div>
-                    <h1>Disponible pour tout renseignment suplementaires</h1>
+                    <h1>Disponible pour tout renseignement supplémentaire</h1>
                     <a href="https://www.linkedin.com/in/mickaël-boïDevWeb" target="_blank">
                     <FontAwesomeIcon icon={brands('LinkedIn')} className="Social"
                         size='5x'
