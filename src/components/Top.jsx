@@ -27,10 +27,12 @@ export default function Top() {
         },
         bmMenuWrap: {
             position: 'fixed',
-            height: '100%'
+            height: '100%',
+            maxHeight: "250px",
+            maxWidth: "220px"
         },
         bmMenu: {
-            background: '#061940',
+            background: '#164966',
             padding: '2.5em 1.5em 0',
             fontSize: '1.15em'
         },
@@ -46,20 +48,27 @@ export default function Top() {
         bmItem: {
             color: '#FFFFFF',
             display: 'inline-block',
-            margin: '10px'
+            margin: '10px',
+            textDecoration: "none",
+            cursor: "pointer",
+            fontWeight: "bold"
         },
         bmOverlay: {
             background: 'rgba(0, 0, 0, 0.3)'
         }
     }
 
+    function scrollUp() {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <section id="sec-1">
             <div className="liste_burger">
-                <Menu styles={ styles }>
-                    <Link id="home" className="menu-item" to="/React_CV">Home</Link>
-                    <Link id="contact" className="menu-item" to="/contact">Contact</Link>
-                    <Link id="skills" className="menu-item" to="/skills">Skills</Link>
+                <Menu styles={styles} >
+                    <Link id="home" onClick={scrollUp} className="menu-item" to="/React_CV">Home</Link>
+                    <Link id="contact" onClick={scrollUp} className="menu-item" to="/contact">Contact</Link>
+                    <Link id="skills" onClick={scrollUp} className="menu-item" to="/skills">Skills</Link>
                 </Menu>
             </div>
             <div className="marbre">

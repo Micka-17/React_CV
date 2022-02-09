@@ -13,13 +13,13 @@ import NotFound from './Pages/404';
 export default function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path="React_CV/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />          
-        <Route path="/skills" element={<SkillsPage />} />         
-        <Route path="/*" element={<NotFound />} />  
-      </Routes>       
-    </Router>
+        <Router>
+          <Routes>
+            <Route path="React_CV/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />          
+            <Route path="/skills" element={<SkillsPage />} />         
+            <Route path="/*" element={<NotFound />} />  
+          </Routes>       
+        </Router>
   );
 }

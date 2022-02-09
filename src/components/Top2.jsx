@@ -53,13 +53,17 @@ export default function Top2() {
         }
     }
 
+    function scrollUp() {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <section id="sec-S">
             <div className="liste_burger">
                 <Menu styles={styles}>
-                    <Link id="home" className="menu-item" to="/React_CV">Home</Link>
-                    <Link id="contact" className="menu-item" to="/contact">Contact</Link>
-                    <Link id="skills" className="menu-item" to="/skills">Skills</Link>
+                <Link id="home" onClick={scrollUp} className="menu-item" to="/React_CV">Home</Link>
+                    <Link id="contact" onClick={scrollUp} className="menu-item" to="/contact">Contact</Link>
+                    <Link id="skills" onClick={scrollUp} className="menu-item" to="/skills">Skills</Link>
                 </Menu>
             </div>
             <div className="marbre">
