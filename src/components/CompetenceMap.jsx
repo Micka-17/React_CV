@@ -63,10 +63,10 @@ const comp = [{
     title: "Mobile first",
     description: ""
 }, {
-    icon: <FontAwesomeIcon icon={solid('universal-access')} className="i"
+    icon: <FontAwesomeIcon icon={brands('bootstrap')} className="i"
         size='5x'
     />,
-    title: "SEO / Accessibility ",
+    title: "Bootstrap",
     description: ""
 }, {
     icon: <FontAwesomeIcon icon={brands('Dev')} className="i"
