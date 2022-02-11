@@ -3,7 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import PDF from "../dl/mickael_boi_junior.pdf"
-import PDFD from "../dl/dpl.jpeg"
+import JPEG from "../dl/dpl.jpeg"
 
 export default function Download() {
 
@@ -27,7 +27,7 @@ export default function Download() {
                     <br />
                     <div className="d-flex justify-content-around flex-wrap">
                         <a href={PDF} className="dl-btn fisrtDl" download="mickael_boi.pdf">Download C.V</a>
-                        <a href={PDFD} className="dl-btn" download="mickael_boi_diploma.jpeg">Download Diploma</a>
+                        <a href={JPEG} className="dl-btn" download="mickael_boi_diploma.jpeg">Download Diploma</a>
                     </div>
                 </div>
             </div>
