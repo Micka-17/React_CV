@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: 0;
 }
+body>div {overflow-x:hidden;}
 ul {
   margin-bottom: 0;
 }
