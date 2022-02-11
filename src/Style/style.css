@@ -4,14 +4,23 @@
   list-style: none;
   text-decoration: 0;
 }
-body>div {overflow-x:hidden;}
+
+body > div {
+  overflow-x: hidden;
+}
+
 ul {
   margin-bottom: 0;
 }
+
+body::-webkit-scrollbar {
+  display:none;
+}
+
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .Social {
@@ -64,14 +73,14 @@ section#sec-1 .marbre .container p {
 }
 
 section#sec-1 .marbre .container a.title-btn {
-    background-color: white;
-    padding: 1em 2em;
-    border-radius: 50px;
-    color: #ff8e0d;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
+  background-color: white;
+  padding: 1em 2em;
+  border-radius: 50px;
+  color: #ff8e0d;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 .title-btn {
   cursor: pointer;
@@ -265,22 +274,29 @@ section#sec-3 .container .right a.dl-btn {
   color: #ff8e0d;
   font-weight: 500;
   text-decoration: none;
+  text-align: center;
 }
 
 .dl-btn {
-    cursor: pointer;
-    border: none;
-    background-color: white;
-    background-image: linear-gradient(135deg, #ffffff 60%, #206992 80%);
-    background-size: 600% 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    transition: 500ms;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  background-image: linear-gradient(135deg, #ffffff 60%, #206992 80%);
+  background-size: 600% 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  transition: 500ms;
+}
+
+@media screen and (max-width: 7450px) {
+  .dl-btn {
+    margin: 10px;
   }
-  
-  .dl-btn:hover {
-    background-position: right;
-  }
+}
+
+.dl-btn:hover {
+  background-position: right;
+}
 
 @media screen and (max-width: 600px) {
   section#sec-3 > h1 {
@@ -425,5 +441,5 @@ section#section-1 .fond .menu-xp ul li {
 }
 
 .menu-item:hover {
-    color: #9cd750 !important;
+  color: #9cd750 !important;
 }
