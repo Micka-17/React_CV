@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 
 
 export default function SkillsPage() {
-    
+
     const variants = {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
@@ -19,7 +19,7 @@ export default function SkillsPage() {
     return (
         <div>
             <Mburger />
-            <motion.div initial="hidden" animate="visible" variants={variants} >
+            <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 1 }}>
                 <div className="body">
                     <Top2 />
                     <Skills page="Skills" />

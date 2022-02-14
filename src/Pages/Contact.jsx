@@ -15,11 +15,11 @@ export default function Contact() {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }
-      
+
     return (
         <div>
             <Mburger />
-            <motion.div initial="hidden" animate="visible" variants={variants} >
+            <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 1 }}>
                 <div className="body">
                     <Top2 />
                     <ContactLink />

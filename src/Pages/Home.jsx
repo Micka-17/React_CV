@@ -19,7 +19,7 @@ export default function Home() {
     return (
         <div>
             <Mburger />
-            <motion.div initial="hidden" animate="visible" variants={variants} >
+            <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 1 }} >
                 <div className="body">
                     <Top />
                     <Skills page="home" />
