@@ -10,16 +10,16 @@ import ContactLink from '../components/ContactLink';
 
 
 export default function Contact() {
+
+    const variants = {
+        visible: { opacity: 1 },
+        hidden: { opacity: 0 },
+      }
+      
     return (
         <div>
             <Mburger />
-            <motion.div initial={{ scale: 0 }}
-                animate={{ rotate: 360, scale: 1 }}
-                transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20
-                }}>
+            <motion.div initial="hidden" animate="visible" variants={variants} >
                 <div className="body">
                     <Top2 />
                     <ContactLink />
