@@ -16,7 +16,7 @@ export default function Nav() {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/React_CV"> Home </Link>
+                                    <Link to="/"> Home </Link>
                                 </li>
                                 <li>
                                     <Link to="/contact"> Contact </Link>

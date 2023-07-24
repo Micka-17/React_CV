@@ -23,7 +23,7 @@ export default function Mburger() {
             width: '24px'
         },
         bmCross: {
-            background: '#AE5317'
+            background: '#ee97b2'
         },
         bmMenuWrap: {
             position: 'fixed',
@@ -65,7 +65,7 @@ export default function Mburger() {
     return (
         <div className="liste_burger">
             <Menu styles={styles} >
-                <Link id="home" onClick={scrollUp} className="menu-item" to="/React_CV">Home</Link>
+                <Link id="home" onClick={scrollUp} className="menu-item" to="/">Home</Link>
                 <Link id="contact" onClick={scrollUp} className="menu-item" to="/contact">Contact</Link>
                 <Link id="skills" onClick={scrollUp} className="menu-item" to="/skills">Skills</Link>
             </Menu>

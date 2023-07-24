@@ -9,15 +9,14 @@ export default function Footer() {
         <footer>
             <div className="container">
                 <div>
-                    <h1>Disponible pour tout renseignement supplémentaire</h1>
                     <a href="https://www.linkedin.com/in/mickaël-boïDevWeb" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={brands('LinkedIn')} className="Social"
-                        size='5x'
+                        size='3x'
                     />
                     </a>
                     <a href="https://github.com/Micka-17" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={brands('GitHub')} className="Social"
-                        size='5x'
+                        size='3x'
                     />
                     </a>
                 </div>
