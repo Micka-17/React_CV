@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfd5adb7.css",
-    "main.js": "/static/js/main.406c6240.js",
-    "static/js/787.11baedba.chunk.js": "/static/js/787.11baedba.chunk.js",
-    "static/media/diploma.jpeg": "/static/media/diploma.9bba573aca936c8b923e.jpeg",
-    "static/media/fond-marbr.png": "/static/media/fond-marbr.0bcc7d8326210856702f.png",
-    "static/media/fond-marbre.png": "/static/media/fond-marbre.b968f94a71390aaf45b8.png",
-    "static/media/mickael_boi.pdf": "/static/media/mickael_boi.0943a7e054f0406b69b9.pdf",
-    "index.html": "/index.html",
-    "main.bfd5adb7.css.map": "/static/css/main.bfd5adb7.css.map",
-    "main.406c6240.js.map": "/static/js/main.406c6240.js.map",
-    "787.11baedba.chunk.js.map": "/static/js/787.11baedba.chunk.js.map"
+    "main.css": "/React_CV/static/css/main.5b91ffef.css",
+    "main.js": "/React_CV/static/js/main.2e1df07d.js",
+    "static/js/787.11baedba.chunk.js": "/React_CV/static/js/787.11baedba.chunk.js",
+    "static/media/diploma.jpeg": "/React_CV/static/media/diploma.9bba573aca936c8b923e.jpeg",
+    "static/media/fond-marbr.png": "/React_CV/static/media/fond-marbr.0bcc7d8326210856702f.png",
+    "static/media/fond-marbre.png": "/React_CV/static/media/fond-marbre.b968f94a71390aaf45b8.png",
+    "static/media/mickael_boi.pdf": "/React_CV/static/media/mickael_boi.0943a7e054f0406b69b9.pdf",
+    "index.html": "/React_CV/index.html",
+    "main.5b91ffef.css.map": "/React_CV/static/css/main.5b91ffef.css.map",
+    "main.2e1df07d.js.map": "/React_CV/static/js/main.2e1df07d.js.map",
+    "787.11baedba.chunk.js.map": "/React_CV/static/js/787.11baedba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfd5adb7.css",
-    "static/js/main.406c6240.js"
+    "static/css/main.5b91ffef.css",
+    "static/js/main.2e1df07d.js"
   ]
 }
