@@ -2,6 +2,7 @@
   "name": "react-cv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://micka-17.github.io/React_CV/",
   "dependencies": {
     "@babel/cli": "^7.22.9",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
