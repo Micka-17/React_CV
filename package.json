@@ -55,10 +55,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
-<<<<<<< HEAD
-=======
     "gh-pages": "^5.0.0",
->>>>>>> 78a3499 ([UPD|Rework]new design color and info)
     "macros": "^0.0.1"
   }
 }
