@@ -15,10 +15,9 @@ export default function Skills({page}) {
     return (
         <section id="sec-2">
             <h1>Mes compétences </h1>
-            <p>Au sein d'une formation Openclassrooms J'ai acquis de nombreuses connaissances et compétences, des plus basiques Html, Css, Javascript jusqu'au React, Axios, API et bien d'autres! </p>
+            <p>Développeur web et mobile polyvalent avec une bonne expérience dans les technologies Symfony, Sylius, PHP, et Reactjs, et une reconversion professionnelle réussie du domaine informatique. Passionné par la conception et le développement d'applications performantes et intuitives, je suis déterminé à apporter mes compétences techniques avancées et ma créativité pour relever de nouveaux défis et contribuer à des projets innovants.</p>
             <div className="container flex-wrap" data-aos="zoom-in">
                 {array.map(({icon, description, title}) => ( 
-                
                     <div className="competences col-4">
                             <p className="i">{icon}</p>
                             <h2>{title}</h2>

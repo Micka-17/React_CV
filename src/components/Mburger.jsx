@@ -23,7 +23,7 @@ export default function Mburger() {
             width: '24px'
         },
         bmCross: {
-            background: '#AE5317'
+            background: '#ee97b2'
         },
         bmMenuWrap: {
             position: 'fixed',
