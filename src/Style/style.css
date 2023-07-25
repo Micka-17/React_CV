@@ -236,6 +236,16 @@ section#sec-2 .container .competences p {
   font-size: 10em;
 }
 
+section#sec-2 a.skills-btn {
+  background-color: #7ed95754;
+  padding: 1em 1em;
+  border-radius: 50px;
+  color: #00bf63;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
 section#sec-3 {
   background: linear-gradient(to bottom, #f58e1900, #7ed95754);
   padding: 32px 0px;
@@ -282,6 +292,17 @@ section#sec-3 .container .right a.dl-btn {
   text-align: center;
 }
 
+.skills-btn {
+  cursor: pointer;
+  border: none;
+  background-color: f58e1900;
+  background-image: linear-gradient(135deg, #f58e1900 60%, #7ed95754 80%);
+  background-size: 600% 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  transition: 500ms;
+}
+
 .dl-btn {
   cursor: pointer;
   border: none;
@@ -300,6 +321,10 @@ section#sec-3 .container .right a.dl-btn {
 }
 
 .dl-btn:hover {
+  background-position: right;
+}
+
+.skills-btn:hover {
   background-position: right;
 }
 
