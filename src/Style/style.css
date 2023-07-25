@@ -236,7 +236,7 @@ section#sec-2 .container .competences p {
   font-size: 10em;
 }
 
-section#sec-2 a.skills-btn {
+section#sec-2 .skills-btn {
   background-color: #7ed95754;
   padding: 1em 1em;
   border-radius: 50px;

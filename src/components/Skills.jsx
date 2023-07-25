@@ -1,4 +1,5 @@
 import { React } from 'react'
+import { Link } from "react-router-dom"
 
 import comp from '../components/CompetenceMap'
 
@@ -8,6 +9,10 @@ export default function Skills({page}) {
     const skills = [];
     const divers = [];
 
+    function scrollUp() {
+        window.scrollTo(0, 0);
+    }
+    
     comp.forEach(element => {
         switch (element.type) {
             case "framework": 
@@ -49,8 +54,8 @@ export default function Skills({page}) {
                     <span className="sides mb-5 border-bottom w-100"></span>
                 </div>
                 <div className="d-flex justify-content-around flex-wrap">
-                        <a href='/skills' className="skills-btn">En voir plus</a>
-                    </div>
+                    <Link id="skills" onClick={scrollUp} className="skills-btn" to="/skills">En voir plus</Link>
+                </div>
             </section>
         )
     } else {
