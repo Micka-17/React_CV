@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React_CV/static/css/main.5b91ffef.css",
-    "main.js": "/React_CV/static/js/main.ce0a009e.js",
+    "main.css": "/React_CV/static/css/main.87b38f8c.css",
+    "main.js": "/React_CV/static/js/main.380890c1.js",
     "static/js/787.11baedba.chunk.js": "/React_CV/static/js/787.11baedba.chunk.js",
     "static/media/diploma.jpeg": "/React_CV/static/media/diploma.9bba573aca936c8b923e.jpeg",
     "static/media/fond-marbr.png": "/React_CV/static/media/fond-marbr.0bcc7d8326210856702f.png",
     "static/media/fond-marbre.png": "/React_CV/static/media/fond-marbre.b968f94a71390aaf45b8.png",
     "static/media/mickael_boi.pdf": "/React_CV/static/media/mickael_boi.0943a7e054f0406b69b9.pdf",
     "index.html": "/React_CV/index.html",
-    "main.5b91ffef.css.map": "/React_CV/static/css/main.5b91ffef.css.map",
-    "main.ce0a009e.js.map": "/React_CV/static/js/main.ce0a009e.js.map",
+    "main.87b38f8c.css.map": "/React_CV/static/css/main.87b38f8c.css.map",
+    "main.380890c1.js.map": "/React_CV/static/js/main.380890c1.js.map",
     "787.11baedba.chunk.js.map": "/React_CV/static/js/787.11baedba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b91ffef.css",
-    "static/js/main.ce0a009e.js"
+    "static/css/main.87b38f8c.css",
+    "static/js/main.380890c1.js"
   ]
 }
