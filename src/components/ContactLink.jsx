@@ -11,7 +11,7 @@ export default function ContactLink() {
 
     const notify = () => toast("Envoyé !");
 
-    const [toSend, setToSend] = useState({ from_name: "", reply_to: "", number: "", message: '' })
+    const [toSend, setToSend] = useState({ from_name: "", reply_to: "", tel: "", message: '' })
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -56,8 +56,8 @@ export default function ContactLink() {
                             </div>
                             <div className="col-xs-6">
                                 <div className="form-group">
-                                    <label htmlFor="number">Numero de contact</label>
-                                    <input type="number" name="number" className="form-control number" id="number" value={toSend.number} onChange={handleChange} />
+                                    <label htmlFor="tel">Numero de contact</label>
+                                    <input type="tel" name="tel" className="form-control tel" id="tel" value={toSend.tel} onChange={handleChange} />
                                 </div>
                             </div>
                             <div className="col-xs-6">
