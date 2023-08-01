@@ -40,7 +40,7 @@ export default function Skills({page}) {
                 <p>Développeur web et mobile polyvalent avec une expérience dans les technologies Symfony, Sylius, PHP, et Reactjs, grâce a une reconversion professionnelle réussie du domaine informatique. Passionné par la conception et le développement d'applications performantes et intuitives, je suis déterminé à apporter mes compétences techniques avancées et ma créativité pour relever de nouveaux défis et contribuer à des projets innovants.</p>
                 <div className="container flex-wrap" data-aos="zoom-in">
                     <div className='w-100 mt-5'>
-                        <h2 className='text-center'>Framework</h2>
+                        <h2 className='text-center'>Framework & Library</h2>
                         <div className="framework d-flex flex-wrap justify-content-around">
                             {framework.map(({icon, description, title}) => ( 
                                 <div className="competences col-md-4 col-6">
