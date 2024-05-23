@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import {  } from '@fortawesome/fontawesome-free'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
 
@@ -10,12 +11,12 @@ export default function Footer() {
             <div className="container">
                 <div>
                     <a href="https://www.linkedin.com/in/mickaël-boïDevWeb" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={brands('LinkedIn')} className="Social"
+                    <FontAwesomeIcon icon={faLinkedin} className="Social"
                         size='3x'
                     />
                     </a>
                     <a href="https://github.com/Micka-17" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={brands('GitHub')} className="Social"
+                    <FontAwesomeIcon icon={faGithub} className="Social"
                         size='3x'
                     />
                     </a>

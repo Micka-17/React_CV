@@ -71,7 +71,7 @@ section#sec-1 .marbre .container p {
   margin-bottom: 50px;
 }
 
-section#sec-1 .marbre .container a.title-btn {
+section#sec-1 .marbre .container button.title-btn {
   background-color: white;
   padding: 1em 2em;
   border-radius: 50px;
@@ -444,4 +444,9 @@ section#section-1 .fond .menu-xp ul li {
 
 .menu-item:hover {
   color: #9cd750 !important;
+}
+
+.active {
+  font-weight: bold;
+  color: #ffcb00 !important;
 }

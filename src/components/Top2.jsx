@@ -7,9 +7,9 @@ export default function Top2() {
             <div className="marbre">
                 <div className="container">
                     <h1>Mickaël Boï</h1>
-                    <p>Dev Junior React.js / React Native</p>
+                    <p>DevOps <br/> Debian / Docker / Symfony / React etc..</p>
                 </div>
             </div>
-        </section >
+        </section>
     )
 }

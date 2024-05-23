@@ -1,8 +1,9 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 export default function Mburger() {
+    const location = useLocation();
 
     var styles = {
         bmBurgerButton: {
@@ -65,9 +66,9 @@ export default function Mburger() {
     return (
         <div className="liste_burger">
             <Menu styles={styles} >
-                <Link id="home" onClick={scrollUp} className="menu-item" to="/home">Home</Link>
-                <Link id="contact" onClick={scrollUp} className="menu-item" to="/contact">Contact</Link>
-                <Link id="skills" onClick={scrollUp} className="menu-item" to="/skills">Skills</Link>
+                <Link id="home" onClick={scrollUp} className={location.pathname === "/" ? "menu-item active" : "menu-item"} to="/">Home</Link>
+                <Link id="contact" onClick={scrollUp} className={location.pathname === "/contact" ? "menu-item active" : "menu-item"} to="/contact">Contact</Link>
+                <Link id="skills" onClick={scrollUp} className={location.pathname === "/skills" ? "menu-item active" : "menu-item"} to="/skills">Skills</Link>
             </Menu>
         </div>
             

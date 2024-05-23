@@ -2,7 +2,7 @@ import { React } from 'react'
 
 import comp from '../components/CompetenceMap'
 
-export default function Skills({page}) {
+export default function Skills({ sec2Ref, page }) {
 
     let array = comp;
     
@@ -13,11 +13,13 @@ export default function Skills({page}) {
     }
 
     return (
-        <section id="sec-2">
+        <section id="sec-2" ref={sec2Ref}>
             <h1>Mes compétences </h1>
-            <p>Développeur web et mobile polyvalent avec une bonne expérience dans les technologies Symfony, Sylius, PHP, et Reactjs, et une reconversion professionnelle réussie du domaine informatique. Passionné par la conception et le développement d'applications performantes et intuitives, je suis déterminé à apporter mes compétences techniques avancées et ma créativité pour relever de nouveaux défis et contribuer à des projets innovants.</p>
+            <p>
+                Développeur web et mobile polyvalent, spécialisé dans les technologies Symfony, Sylius, PHP et Reactjs. Fort d'une reconversion réussie dans le domaine informatique, je suis passionné par la création d'applications performantes et intuitives. Depuis un an, je suis DevOps. En effet, je gére actuellement les serveurs et les déploiements pour l'entreprise dans laquelle je travaille. Déterminé à contribuer à des projets innovants, je suis enthousiaste à l'idée de relever de nouveaux défis dans un environnement dynamique.
+            </p>
             <div className="container flex-wrap" data-aos="zoom-in">
-                {array.map(({icon, description, title}) => ( 
+                {array.map(({icon, description, title}) => (
                     <div className="competences col-4">
                             <p className="i">{icon}</p>
                             <h2>{title}</h2>

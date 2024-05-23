@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { code } from '@fortawesome/fontawesome-free'
 import PDF from "../dl/mickael_boi.pdf"
 import JPEG from "../dl/diploma.jpeg"
 
@@ -11,7 +11,7 @@ export default function Download() {
         <section id="sec-3">
             <div className="container">
                 <div className="left">
-                    <FontAwesomeIcon icon={solid('code')}
+                    <FontAwesomeIcon icon={code}
                         size='5x'
                     />
                 </div>
